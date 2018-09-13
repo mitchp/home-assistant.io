@@ -80,7 +80,7 @@ Once you have activated the virtual environment (notice the prompt change) you w
 Once you have installed the required python package it is now time to install Home Assistant!
 
 ```bash
-(homeassistant) homeassistant@raspberrypi:/srv/homeassistant $ pip3 install homeassistant
+(homeassistant) homeassistant@raspberrypi:/srv/homeassistant $ python3 -m pip install homeassistant
 ```
 
 Start Home Assistant for the first time. This will complete the installation, create the `.homeassistant` configuration directory in the `/home/homeassistant` directory and install any basic dependencies.
